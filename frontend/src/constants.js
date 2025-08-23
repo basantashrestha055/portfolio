@@ -97,6 +97,6 @@ export const projects = [
       'An Amazon-inspired e-commerce web app where I practiced core JavaScript concepts by implementing features like product listings, a shopping cart, and a simple checkout flow.',
     image: amazonLogo,
     tags: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/basanta44/javascript-amazon-project',
+    github: 'https://github.com/basantashrestha055/javascript-amazon-clone',
   },
 ];
