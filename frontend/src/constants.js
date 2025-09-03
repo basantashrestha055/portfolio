@@ -7,8 +7,7 @@ import reduxLogo from './assets/tech_logo/redux.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
+import mongodbLogo from './assets/tech_logo/mongodb.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -21,6 +20,8 @@ import xavierLogo from './assets/education_logo/xavier.png';
 // Project Section Logo's
 import streamifyLogo from './assets/work_logo/streamify.png';
 import amazonLogo from './assets/work_logo/amazon.png';
+import blinkitLogo from './assets/work_logo/blinkit.png';
+import instaLogo from './assets/work_logo/insta.png';
 
 export const SkillsInfo = [
   {
@@ -39,15 +40,12 @@ export const SkillsInfo = [
     skills: [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
     ],
   },
   {
     title: 'Languages',
-    skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-    ],
+    skills: [{ name: 'JavaScript', logo: javascriptLogo }],
   },
   {
     title: 'Tools',
@@ -82,21 +80,63 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: 'Streamify',
-    description:
-      'Streamify is a project I built to bring people closer through real-time chat and video calls. I used the Stream API to make conversations feel instant and seamless, whether it’s sending a quick message or jumping on a face-to-face call. The idea was to create something practical, interactive, and easy to use, while helping me explore how modern APIs power real-time communication.',
-    image: streamifyLogo,
-    tags: ['HTML', 'CSS', 'React', 'Node', 'Express', 'MongoDB', 'Stream API'],
-    github: 'https://github.com/basantashrestha055/streamify',
-    webapp: 'https://streamify-b2y6.onrender.com/',
-  },
-  {
-    id: 1,
     title: 'Amazon',
     description:
       'An Amazon-inspired e-commerce web app where I practiced core JavaScript concepts by implementing features like product listings, a shopping cart, and a simple checkout flow.',
     image: amazonLogo,
     tags: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/basantashrestha055/javascript-amazon-clone',
+  },
+  {
+    id: 1,
+    title: 'BinkeyIt',
+    description:
+      'I built an e-commerce web app using the MERN stack, recreating core features to practice full-stack development in a real-world setting. The project helped me connect frontend, backend, and database seamlessly while also deploying it for live use.',
+    image: blinkitLogo,
+    tags: [
+      'React',
+      'Node',
+      'Express',
+      'MongoDB',
+      'Tailwind',
+      'Cloudinary',
+      'Stripe',
+    ],
+    github: 'https://github.com/basantashrestha055/blinkit',
+    webapp: 'https://blinkit-x4ew.onrender.com/',
+  },
+  {
+    id: 2,
+    title: 'Streamify',
+    description:
+      'Streamify is a project I built to bring people closer through real-time chat and video calls. I used the Stream API to make conversations feel instant and seamless, whether it’s sending a quick message or jumping on a face-to-face call. The idea was to create something practical, interactive, and easy to use, while helping me explore how modern APIs power real-time communication.',
+    image: streamifyLogo,
+    tags: [
+      'React',
+      'Node',
+      'Express',
+      'MongoDB',
+      'Stream',
+      'Tanstack Query',
+      'Tailwind',
+      'Daisy UI',
+    ],
+    github: 'https://github.com/basantashrestha055/streamify',
+    webapp: 'https://streamify-b2y6.onrender.com/',
+  },
+  {
+    id: 3,
+    title: 'Instagram',
+    description: 'Coming Soon...',
+    image: instaLogo,
+    tags: [
+      'React',
+      'Node',
+      'Express',
+      'MongoDB',
+      'Tanstack Query',
+      'Tailwind',
+      'Cloudinary',
+    ],
   },
 ];
