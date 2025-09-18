@@ -4,10 +4,14 @@ import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import reduxLogo from './assets/tech_logo/redux.png';
+import zustandLogo from './assets/tech_logo/zustand.jpg';
+import tanstackLogo from './assets/tech_logo/tanstack.jpg';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
+import socketioLogo from './assets/tech_logo/socketio.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
+import cloudinaryLogo from './assets/tech_logo/cloudinary.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -21,6 +25,7 @@ import xavierLogo from './assets/education_logo/xavier.png';
 import streamifyLogo from './assets/work_logo/streamify.png';
 import amazonLogo from './assets/work_logo/amazon.png';
 import blinkitLogo from './assets/work_logo/blinkit.png';
+import chatifyLogo from './assets/work_logo/chatify.png';
 import instaLogo from './assets/work_logo/insta.png';
 
 export const SkillsInfo = [
@@ -32,7 +37,11 @@ export const SkillsInfo = [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
+      { name: 'Zustand', logo: zustandLogo },
+      { name: 'Tanstack Query', logo: tanstackLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'Cloudinary', logo: cloudinaryLogo },
+      { name: 'Socket.io', logo: socketioLogo },
     ],
   },
   {
@@ -41,6 +50,8 @@ export const SkillsInfo = [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'Cloudinary', logo: cloudinaryLogo },
+      { name: 'Socket.io', logo: socketioLogo },
     ],
   },
   {
@@ -126,6 +137,26 @@ export const projects = [
   },
   {
     id: 3,
+    title: 'Chatify',
+    description: '',
+    image: chatifyLogo,
+    tags: [
+      'React',
+      'Node',
+      'Express',
+      'MongoDB',
+      'Arcjet',
+      'Zustand',
+      'Tailwind',
+      'Daisy UI',
+      'Cloudinary',
+      'Socket.io',
+    ],
+    github: 'https://github.com/basantashrestha055/chatify',
+    webapp: 'https://chatify-0z3pm.sevalla.app/',
+  },
+  {
+    id: 4,
     title: 'Instagram',
     description: 'Coming Soon...',
     image: instaLogo,
