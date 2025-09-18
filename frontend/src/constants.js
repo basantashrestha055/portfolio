@@ -138,7 +138,8 @@ export const projects = [
   {
     id: 3,
     title: 'Chatify',
-    description: '',
+    description:
+      'Chatify is a real-time messaging app built with the MERN stack. I used Socket.io to handle live messaging between users, and tools like Zustand, Cloudinary, and Tailwind to manage state, media, and design. I focused on keeping the design simple and clean, while also learning how real-time features work behind the scenes.',
     image: chatifyLogo,
     tags: [
       'React',
@@ -160,14 +161,5 @@ export const projects = [
     title: 'Instagram',
     description: 'Coming Soon...',
     image: instaLogo,
-    tags: [
-      'React',
-      'Node',
-      'Express',
-      'MongoDB',
-      'Tanstack Query',
-      'Tailwind',
-      'Cloudinary',
-    ],
   },
 ];
