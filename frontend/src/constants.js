@@ -161,5 +161,6 @@ export const projects = [
     title: 'Instagram',
     description: 'Coming Soon...',
     image: instaLogo,
+    tags: [],
   },
 ];
